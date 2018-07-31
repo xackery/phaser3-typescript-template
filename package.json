@@ -1,0 +1,23 @@
+{
+  "name": "phaser3-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy/index.html",
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production && webpack-dev-server --mode production"
+  },
+  "author": "xackery",
+  "license": "ISC",
+  "devDependencies": {
+    "expose-loader": "^0.7.5",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "phaser": "3.11.0"
+  }
+}
